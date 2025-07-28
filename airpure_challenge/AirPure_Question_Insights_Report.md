@@ -41,7 +41,7 @@ The most polluted areas during this period were concentrated in **northern and e
 
 ### **Q2. What are the top 2 and bottom 2 dominant pollutants in each southern Indian state (2022 onwards)?**
 
-**Insight:** Across Southern India, **PM10**, **PM2.5** is consistently the most frequent pollutant. Rare combinations involving gases like **NO2**, **CO**, and **NH3** appear the least. This helps tailor filter design to local pollutant profiles.
+**Insight:** Across Southern India, **PM10**, **PM2.5** are consistently the most frequent pollutants. Rare combinations involving gases like **NO2**, **CO**, and **NH3** appear the least. This helps tailor filter design to local pollutant profiles.
 
 
 > *Note: Some pollutants appear as combinations (e.g., PM2.5,PM10). These represent co-dominant pollutants observed at the same location and time. They are retained to reflect real-world AQI reporting patterns.*
