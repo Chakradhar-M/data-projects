@@ -109,6 +109,7 @@ Notably:
 
 
 ---
+
 ### Q4. Which months consistently show the worst air quality across Indian states
 *(Consider top 10 states with high distinct areas)*  
 
@@ -126,7 +127,6 @@ Notably:
 #### Heatmap: Monthly Average AQI for Top 10 States  
 ![Monthly AQI Heatmap](https://github.com/Chakradhar-M/data-projects/blob/main/airpure_challenge/images/4Q_Heatmap_AQI_Month_City.png?raw=true)
 
-
 ---
 
 ### Q5. For the city of Bengaluru, how many days fell under each air quality category (e.g., Good, Moderate, Poor, etc.) between March and May 2025?
@@ -142,6 +142,58 @@ Only two categories were observed during this period, indicating generally clean
 > No days were recorded under **Good**, **Poor**, **Very Poor**, or **Severe** categories.
 
 ---
+
+
+### **Q6) What are the top two most reported disease illnesses in each state over the past three years, and their corresponding average AQI?**
+
+This analysis highlights the two most frequently reported diseases in each state (2022–2025), along with the associated average AQI. 
+
+
+> **Note:**
+
+> The most reported illnesses across states, such as **Acute Diarrheal Disease**, **Food Poisoning**, and **Chickenpox**, are **not directly related to air pollution**.
+> This indicates that, despite high AQI in several regions, **pollution-linked respiratory conditions are underreported or not captured** in the available health dataset.
+> This limits the ability to draw strong correlations between air quality and disease burden in this context.
+
+
+
+| State                       | Disease 1               | Count | Disease 2               | Count | Avg AQI |
+| --------------------------- | ----------------------- | ----- | ----------------------- | ----- | ------- |
+| Andaman and Nicobar Islands | Acute Diarrheal Disease | 3     | Chickenpox              | 1     | 57.71   |
+| Andhra Pradesh              | Acute Diarrheal Disease | 89    | Food Poisoning          | 25    | 77.90   |
+| Arunachal Pradesh           | Acute Diarrheal Disease | 8     | Chickenpox              | 8     | 54.45   |
+| Assam                       | Acute Diarrheal Disease | 88    | Food Poisoning          | 46    | 114.41  |
+| Bihar                       | Fever with Rash         | 63    | Acute Diarrheal Disease | 53    | 156.00  |
+| Chandigarh                  | Cholera                 | 1     | -                       | -     | 141.13  |
+| Chhattisgarh                | Acute Diarrheal Disease | 196   | Food Poisoning          | 19    | 79.08   |
+| Delhi                       | Dengue                  | 1     | Measles                 | 1     | 205.13  |
+| Gujarat                     | Acute Diarrheal Disease | 88    | Food Poisoning          | 51    | 110.45  |
+| Haryana                     | Acute Diarrheal Disease | 14    | Measles                 | 11    | 139.18  |
+| Himachal Pradesh            | Acute Diarrheal Disease | 13    | Hepatitis A             | 5     | 160.27  |
+| Jammu and Kashmir           | Hepatitis A             | 71    | Mumps                   | 32    | 71.14   |
+| Jharkhand                   | Chickenpox              | 94    | Acute Diarrheal Disease | 79    | 164.94  |
+| Karnataka                   | Acute Diarrheal Disease | 199   | Food Poisoning          | 85    | 62.51   |
+| Kerala                      | Food Poisoning          | 188   | Hepatitis A             | 166   | 68.22   |
+| Madhya Pradesh              | Acute Diarrheal Disease | 204   | Dengue                  | 70    | 107.68  |
+| Maharashtra                 | Dengue                  | 183   | Acute Diarrheal Disease | 119   | 103.44  |
+| Manipur                     | Human Rabies            | 5     | Acute Diarrheal Disease | 4     | 101.25  |
+| Meghalaya                   | Human Rabies            | 24    | Measles                 | 18    | 62.89   |
+| Mizoram                     | Food Poisoning          | 11    | Acute Diarrheal Disease | 5     | 46.66   |
+| Nagaland                    | Dengue                  | 6     | Human Rabies            | 4     | 80.01   |
+| Odisha                      | Acute Diarrheal Disease | 229   | Food Poisoning          | 81    | 124.92  |
+| Puducherry                  | Acute Diarrheal Disease | 3     | Dengue                  | 3     | 56.94   |
+| Punjab                      | Acute Diarrheal Disease | 25    | Chickenpox              | 9     | 117.33  |
+| Rajasthan                   | Acute Diarrheal Disease | 19    | Food Poisoning          | 9     | 127.73  |
+| Sikkim                      | Typhoid                 | 3     | Acute Diarrheal Disease | 1     | 53.60   |
+| Tamil Nadu                  | Mumps                   | 104   | Acute Diarrheal Disease | 84    | 67.96   |
+| Telangana                   | Acute Diarrheal Disease | 26    | Food Poisoning          | 7     | 80.47   |
+| Tripura                     | Acute Diarrheal Disease | 8     | Acute Gastroenteritis   | 1     | 128.44  |
+| Uttar Pradesh               | Acute Diarrheal Disease | 108   | Food Poisoning          | 44    | 124.81  |
+| Uttarakhand                 | Acute Diarrheal Disease | 15    | Dengue                  | 7     | 87.80   |
+| West Bengal                 | Acute Diarrheal Disease | 76    | Food Poisoning          | 39    | 114.54  |
+
+---
+
 ## **Secondary Analysis**
 
 1. Which age group is most affected by pollution-related health issues, and how does this vary by city?
