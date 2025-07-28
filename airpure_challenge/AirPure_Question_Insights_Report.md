@@ -139,8 +139,6 @@ Notably:
 | Bengaluru | 71.90       | 72.38       |
 | Chennai   | 71.25       | 68.44       |
 
-> **Conclusion**: AQI differences are marginal overall. Delhi and Chennai show the clearest weekend improvement. For others, impact is minimal.
-
 
 ---
 ### **Remaining Primary Questions**
