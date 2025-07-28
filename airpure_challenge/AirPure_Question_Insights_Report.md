@@ -113,6 +113,36 @@ The most polluted areas during this period were concentrated in **northern and e
 
 ---
 
+### **Q3. Does AQI improve on weekends vs weekdays in Indian metro cities? (Consider data from last 1 year)**
+
+
+**Insight:**
+The difference in AQI between weekdays and weekends is **minor across most cities**. 
+
+Notably:
+
+* **Delhi** shows slight improvement on weekends (\~10 AQI drop).
+* **Chennai** shows a small but clearer improvement.
+* In cities like **Mumbai** and **Hyderabad**, AQI is slightly higher on weekends, possibly due to traffic from leisure and events.
+
+
+**Average AQI by Day Type**
+
+| City      | Weekday AQI | Weekend AQI |
+| --------- | ----------- | ----------- |
+| Delhi     | 208.70      | 198.92      |
+| Ahmedabad | 114.72      | 116.04      |
+| Pune      | 101.95      | 100.85      |
+| Kolkata   | 91.73       | 91.26       |
+| Mumbai    | 91.05       | 92.65       |
+| Hyderabad | 77.92       | 79.01       |
+| Bengaluru | 71.90       | 72.38       |
+| Chennai   | 71.25       | 68.44       |
+
+> **Conclusion**: AQI differences are marginal overall. Delhi and Chennai show the clearest weekend improvement. For others, impact is minimal.
+
+
+---
 ### **Remaining Primary Questions**
 
 3. Is there a noticeable difference in AQI levels between weekdays and weekends in major metro cities?
