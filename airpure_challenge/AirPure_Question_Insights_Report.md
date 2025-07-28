@@ -12,6 +12,7 @@ This document presents data-driven answers to the Primary, Secondary, and Strate
 ### **Q1. Which 5 areas recorded the highest and lowest average AQI between Dec 2024 and May 2025?**
 
 **Insight:**
+
 The most polluted areas during this period were concentrated in **northern and eastern India**, led by **Byrnihat (Assam)** and **Delhi**. Southern cities like **Tirunelveli (Tamil Nadu)** and **Madikeri (Karnataka)** reported the cleanest air.
 
 
@@ -41,75 +42,41 @@ The most polluted areas during this period were concentrated in **northern and e
 
 ### **Q2. What are the top 2 and bottom 2 dominant pollutants in each southern Indian state (2022 onwards)?**
 
-**Insight:** Across Southern India, **PM10**, **PM2.5** are consistently the most frequent pollutants. Rare combinations involving gases like **NO2**, **CO**, and **NH3** appear the least. This helps tailor filter design to local pollutant profiles.
+**Insight:**
+
+Across Southern India, **PM10**, **PM2.5** are consistently the most frequent pollutants. Rare combinations involving gases like **NO2**, **CO**, and **NH3** appear the least. This helps tailor filter design to local pollutant profiles.
 
 
 > *Note: Some pollutants appear as combinations (e.g., PM2.5,PM10). These represent co-dominant pollutants observed at the same location and time. They are retained to reflect real-world AQI reporting patterns.*
 
+#### Top 2 and Bottom 2 Prominent Pollutants in Southern Indian States (2022 Onwards)
 
-#### **Andhra Pradesh**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM10                | 3182  |
-|        | PM2.5               | 1757  |
-| Bottom | PM10,NO2,O3         | 1     |
-|        | PM10,NO2,PM2.5,O3   | 1     |
-
-
-
-#### **Karnataka**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM10                | 13404 |
-|        | CO                  | 2913  |
-| Bottom | NO2,O3              | 1     |
-|        | NO2,SO2,CO          | 1     |
-
-
-
-#### **Kerala**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM10                | 3167  |
-|        | PM2.5               | 1123  |
-| Bottom | CO,O3               | 6     |
-|        | SO2                 | 7     |
-
-
-
-#### **Puducherry**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM10                | 413   |
-|        | O3                  | 303   |
-| Bottom | CO                  | 148   |
-|        | PM2.5               | 206   |
-
-
-
-#### **Tamil Nadu**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM10                | 6253  |
-|        | PM2.5               | 2268  |
-| Bottom | PM10,NH3,CO         | 1     |
-|        | PM10,NO2,PM2.5,O3   | 1     |
-
-
-
-#### **Telangana**
-
-| Type   | Prominent Pollutant | Count |
-| ------ | ------------------- | ----- |
-| Top    | PM2.5,PM10          | 343   |
-|        | PM10                | 315   |
-| Bottom | CO,O3               | 1     |
-|        | NO2                 | 1     |
+| State         | Type    | Prominent Pollutant     | Count |
+|---------------|---------|--------------------------|--------|
+| Andhra Pradesh| Top     | PM10                     | 3182   |
+|               |         | PM2.5                    | 1757   |
+|               | Bottom  | PM10,NO2,O3              | 1      |
+|               |         | PM10,NO2,PM2.5,O3        | 1      |
+| Karnataka     | Top     | PM10                     | 13404  |
+|               |         | CO                       | 2913   |
+|               | Bottom  | NO2,O3                   | 1      |
+|               |         | NO2,SO2,CO               | 1      |
+| Kerala        | Top     | PM10                     | 3167   |
+|               |         | PM2.5                    | 1123   |
+|               | Bottom  | CO,O3                    | 6      |
+|               |         | SO2                      | 7      |
+| Puducherry    | Top     | PM10                     | 413    |
+|               |         | O3                       | 303    |
+|               | Bottom  | CO                       | 148    |
+|               |         | PM2.5                    | 206    |
+| Tamil Nadu    | Top     | PM10                     | 6253   |
+|               |         | PM2.5                    | 2268   |
+|               | Bottom  | PM10,NH3,CO              | 1      |
+|               |         | PM10,NO2,PM2.5,O3        | 1      |
+| Telangana     | Top     | PM2.5,PM10               | 343    |
+|               |         | PM10                     | 315    |
+|               | Bottom  | CO,O3                    | 1      |
+|               |         | NO2                      | 1      |
 
 ---
 
@@ -117,6 +84,7 @@ The most polluted areas during this period were concentrated in **northern and e
 
 
 **Insight:**
+
 The difference in AQI between weekdays and weekends is **minor across most cities**. 
 
 Notably:
@@ -141,15 +109,37 @@ Notably:
 
 
 ---
-### **Remaining Primary Questions**
+### Q4. Which months consistently show the worst air quality across Indian states
+*(Consider top 10 states with high distinct areas)*  
 
-3. Is there a noticeable difference in AQI levels between weekdays and weekends in major metro cities?
-4. Which months consistently record the poorest air quality across the top 10 states (by area count)?
-5. How many days in Bengaluru fell under each AQI category from March to May 2025?
-6. What are the top two most reported illnesses in each state over the last 3 years, and their average AQI?
-7. Do the top 5 states with highest EV adoption show significantly better AQI than low-EV states?
+
+#### Insight:
+- **November** and **December** show the **worst air quality** across most states, particularly Bihar, Haryana, Odisha, and Uttar Pradesh.
+- **January** also reflects high AQI, especially in northern states.
+- **June to September** show significantly **cleaner air**, likely due to monsoon effects.
+
+#### Possible Reasons:
+- **Post-monsoon stubble burning** in Punjab, Haryana, and UP (Oct–Nov).
+- **Winter smog** due to temperature inversion (Nov–Jan).
+- **Diwali-related firecracker pollution** (usually in October/November).
+
+#### Heatmap: Monthly Average AQI for Top 10 States  
+![Monthly AQI Heatmap](https://github.com/Chakradhar-M/data-projects/blob/main/airpure_challenge/images/4Q_Heatmap_AQI_Month_City.png?raw=true)
+
 
 ---
+
+### Q5. For the city of Bengaluru, how many days fell under each air quality category (e.g., Good, Moderate, Poor, etc.) between March and May 2025?
+
+#### Insight:
+Only two categories were observed during this period, indicating generally clean air in Bengaluru.
+
+| Air Quality Category | Number of Days |
+|----------------------|----------------|
+| Satisfactory         | 48             |
+| Moderate             | 13             |
+
+> No days were recorded under **Good**, **Poor**, **Very Poor**, or **Severe** categories.
 
 ---
 ## **Secondary Analysis**
