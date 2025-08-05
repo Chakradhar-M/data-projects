@@ -18,4 +18,7 @@ This document contains all the data sources used in the analysis for this projec
 
 ### 🔹 Data Gathered from Other Sources:
 
-5. *(Add your external sources here, such as Google Trends, market research reports, etc.)*
+5. **Air Quality Data in India (2015 - 2020)**
+   [https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india/data]
+
+6. 
